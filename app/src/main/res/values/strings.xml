@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LorealSuprevisor</string>
+    <string name="prompt_userid" translatable="false">Username</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Login</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_incorrect_username" translatable="false">This username is incorrect</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+
+    <string name="error_field_required" translatable="false">This field is required</string>
+
+</resources>
