@@ -19,7 +19,7 @@ import android.support.v4.app.Fragment;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 
-import com.cpm.bira.R;
+import com.cpm.lorealsuprevisor.R;
 
 import java.io.File;
 import java.util.Calendar;

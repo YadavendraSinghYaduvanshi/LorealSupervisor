@@ -46,9 +46,9 @@ public class CommonString {
 
     public static final String URL2 = "http://bira.parinaam.in/webservice/bira.svc/";
     public static final String URL3 = "http://bira.parinaam.in/webservice/Imageupload.asmx/";
-    public static final String FILE_PATH = Environment.getExternalStorageDirectory() + "/.Bira_All_Images/";
+    public static final String FILE_PATH = Environment.getExternalStorageDirectory() + "/.LorealSupervisor_All_Images/";
     public static final String KEY_DOWNLOAD_INDEX = "download_Index";
-    public static final String BACKUP_PATH = Environment.getExternalStorageDirectory() +"/Bira_backup/";
+    public static final String BACKUP_PATH = Environment.getExternalStorageDirectory() +"/LorealSupervisor_Backup/";
     public static final String MESSAGE_EXCEPTION = "Problem Occured : Report The Problem To Parinaam ";
     public static final String MESSAGE_CHANGED = "Invalid UserId Or Password";
     public static final String MESSAGE_INTERNET_NOT_AVALABLE = "No Internet Connection.Please Check Your Network Connection";

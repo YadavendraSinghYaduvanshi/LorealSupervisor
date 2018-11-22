@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_daily_activity"
+            android:icon="@drawable/daily_activity"
+            android:title="@string/menu_daily_route_plan" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/download"
+            android:title="@string/menu_daily_download" />
+
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/upload"
+            android:title="@string/menu_upload_data" />
+
+    </group>
+
+    <item android:title="Attendance">
+        <menu>
+            <item
+                android:id="@+id/nav_my_attendance"
+                android:icon="@drawable/attendance"
+                android:title="@string/my_attendance" />
+
+        </menu>
+    </item>
+
+    <item android:title="Performance">
+        <menu>
+            <item
+                android:id="@+id/team_performance"
+                android:icon="@drawable/team_performance"
+                android:title="@string/teamperformance"
+                android:visible="true"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_gate_metting"
+                android:icon="@drawable/groupmeeting"
+                android:title="@string/gateMetting" />
+
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/db_backup"
+                android:title="@string/backup" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
