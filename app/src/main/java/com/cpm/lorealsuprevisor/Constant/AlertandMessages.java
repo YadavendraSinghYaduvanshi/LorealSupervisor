@@ -8,8 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.cpm.bira.DailyEntry.BiraChillerActivity;
-import com.cpm.bira.R;
+import com.cpm.lorealsuprevisor.R;
 
 
 /**
@@ -117,7 +116,5 @@ public class AlertandMessages {
         alert.show();
     }
 
-    public void showDeleteDataAlert(final BiraChillerActivity context) {
 
-    }
 }

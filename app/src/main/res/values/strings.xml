@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LorealSuprevisor</string>
+    <string name="app_name" translatable="false">LorealSuprevisor</string>
     <string name="prompt_userid" translatable="false">Username</string>
     <string name="prompt_password" translatable="false">Password</string>
     <string name="action_sign_in" translatable="false">Login</string>
@@ -7,7 +7,35 @@
     <string name="error_incorrect_username" translatable="false">This username is incorrect</string>
     <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
     <string name="error_invalid_password" translatable="false">This password is too short</string>
-
     <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="title_activity_main" translatable="false">Main Menu</string>
+    <string name="backup" translatable="false">DataBase Backup</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="menu_daily_download" translatable="false">Download Data</string>
+    <string name="menu_upload_data" translatable="false">Upload Data</string>
+    <string name="menu_daily_route_plan" translatable="false">Daily Entry</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="data_not_uploaded" translatable="false">Data not uploaded. Please try again.</string>
+    <string name="data_uploaded" translatable="false">Database uploaded successfully</string>
+    <string name="myAttendance" translatable="false">Your attendance updated on server successfully</string>
+    <string name="previous_data_upload" translatable="false">Please upload previous data first</string>
+    <string name="want_download_data" translatable="false">Do you want to download data ?</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="nonetwork" translatable="false"> No Network Connection. Please Check Your Internet Connection</string>
+    <string name="Ok" translatable="false">Ok</string>
+    <string name="title_activity_previous_upload" translatable="false">Previous Upload</string>
+    <string name="data_error" translatable="false">No JCP planned for the day. </string>
+    <string name="title_store_list_checkout" translatable="false">Please checkout from store</string>
+    <string name="want_upload_data" translatable="false">Do you want to upload data ?</string>
+    <string name="download_data_error" translatable="false">Please download data first.</string>
+    <string name="data_backup_msg" translatable="false">Are you sure you want to take the backup of your data?</string>
+    <string name="app_exit_msg" translatable="false">Do you want to exit?</string>
+    <string name="no_data_for_upload" translatable="false">No data for upload</string>
+    <string name="my_attendance" translatable="false">My Attendance</string>
+    <string name="teamperformance" translatable="false">Team Performance</string>
+    <string name="gateMetting">Gate Metting</string>
+
 
 </resources>

@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/parinaam_logo_ico"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
+        <activity
+            android:name=".SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="io.github.memfis19.annca.internal.ui.camera.Camera1Activity"
             android:screenOrientation="portrait"
@@ -27,6 +37,27 @@
             android:name="io.github.memfis19.annca.internal.ui.preview.PreviewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name=".upload.PreviousDataUploadActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_previous_upload"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Download.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".upload.UploadWithoutWaitActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DailyEntry.NonWorkingActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".DailyEntry.GateMeetingActivity"></activity>
     </application>
 
 </manifest>
